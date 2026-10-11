@@ -1,0 +1,65 @@
+{
+  "judge_model": "google/gemini-3-flash-preview",
+  "comparisons": [
+    {
+      "comparison": "baseline_vs_sft",
+      "challenger": "SFT",
+      "judge_model": "google/gemini-3-flash-preview",
+      "total_pairs": 300,
+      "challenger_wins": 193,
+      "opponent_wins": 75,
+      "ties": 32,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.7201492537313433,
+      "win_rate_including_ties": 0.6966666666666667,
+      "unknown_rate": 0.0,
+      "failure_rate": 0.0
+    },
+    {
+      "comparison": "hh_dpo_vs_sft",
+      "challenger": "HH-RLHF DPO",
+      "judge_model": "google/gemini-3-flash-preview",
+      "total_pairs": 300,
+      "challenger_wins": 80,
+      "opponent_wins": 123,
+      "ties": 97,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.39408866995073893,
+      "win_rate_including_ties": 0.42833333333333334,
+      "unknown_rate": 0.0,
+      "failure_rate": 0.0
+    },
+    {
+      "comparison": "persona_lora_dpo_vs_base",
+      "challenger": "Persona LoRA DPO",
+      "judge_model": "google/gemini-3-flash-preview",
+      "total_pairs": 4,
+      "challenger_wins": 1,
+      "opponent_wins": 1,
+      "ties": 2,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5,
+      "win_rate_including_ties": 0.5,
+      "unknown_rate": 0.0,
+      "failure_rate": 0.0
+    },
+    {
+      "comparison": "ultrafeedback_dpo_vs_sft",
+      "challenger": "UltraFeedback DPO",
+      "judge_model": "google/gemini-3-flash-preview",
+      "total_pairs": 300,
+      "challenger_wins": 114,
+      "opponent_wins": 111,
+      "ties": 75,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5066666666666667,
+      "win_rate_including_ties": 0.505,
+      "unknown_rate": 0.0,
+      "failure_rate": 0.0
+    }
+  ]
+}

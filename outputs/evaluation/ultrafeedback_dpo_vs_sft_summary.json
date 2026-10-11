@@ -1,0 +1,15 @@
+{
+  "comparison": "ultrafeedback_dpo_vs_sft",
+  "challenger": "UltraFeedback DPO",
+  "judge_model": "google/gemini-3-flash-preview",
+  "total_pairs": 300,
+  "challenger_wins": 114,
+  "opponent_wins": 111,
+  "ties": 75,
+  "unknown": 0,
+  "failures": 0,
+  "win_rate_excluding_ties": 0.5066666666666667,
+  "win_rate_including_ties": 0.505,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0
+}

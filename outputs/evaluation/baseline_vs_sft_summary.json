@@ -1,0 +1,15 @@
+{
+  "comparison": "baseline_vs_sft",
+  "challenger": "SFT",
+  "judge_model": "google/gemini-3-flash-preview",
+  "total_pairs": 300,
+  "challenger_wins": 193,
+  "opponent_wins": 75,
+  "ties": 32,
+  "unknown": 0,
+  "failures": 0,
+  "win_rate_excluding_ties": 0.7201492537313433,
+  "win_rate_including_ties": 0.6966666666666667,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0
+}

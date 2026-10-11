@@ -1,0 +1,15 @@
+{
+  "comparison": "persona_lora_dpo_vs_base",
+  "challenger": "Persona LoRA DPO",
+  "judge_model": "google/gemini-3-flash-preview",
+  "total_pairs": 4,
+  "challenger_wins": 1,
+  "opponent_wins": 1,
+  "ties": 2,
+  "unknown": 0,
+  "failures": 0,
+  "win_rate_excluding_ties": 0.5,
+  "win_rate_including_ties": 0.5,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0
+}

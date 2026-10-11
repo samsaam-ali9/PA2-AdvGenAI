@@ -1,0 +1,33 @@
+{
+  "method": "trl_dpo_trainer_with_peft_lora",
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "data_path": "/kaggle/working/PA2/data/persona_lora/ramsay_style_preferences.json",
+  "train_examples": 198,
+  "validation_examples": 22,
+  "beta": 0.1,
+  "learning_rate": 5e-05,
+  "per_device_train_batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 8,
+  "epochs": 3,
+  "max_length": 512,
+  "max_prompt_length": 256,
+  "prompt_truncation": "tokenize raw prompt and retain final max_prompt_length tokens",
+  "precision": "fp16 autocast on CUDA; fp32 on CPU",
+  "optimizer": "AdamW (adamw_torch)",
+  "weight_decay": 0.0,
+  "scheduler": "linear",
+  "warmup_ratio": 0.0,
+  "seed": 42,
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  }
+}

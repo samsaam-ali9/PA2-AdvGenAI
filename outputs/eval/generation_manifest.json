@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "alpaca_eval_count": 300,
+  "hh_eval_count": 300,
+  "greedy_decoding": true,
+  "alpaca_settings": {
+    "max_new_tokens": 256,
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "no_repeat_ngram_size": 0
+  },
+  "persona_settings": {
+    "max_new_tokens": 160,
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "no_repeat_ngram_size": 0
+  },
+  "training_outputs": "/kaggle/working/PA2/outputs"
+}

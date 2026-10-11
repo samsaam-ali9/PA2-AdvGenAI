@@ -1,0 +1,24 @@
+﻿# Python temporary files
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments and caches
+.venv/
+venv/
+.cache/
+
+# Archives stay outside the GitHub repository
+*.zip
+
+# Full model checkpoint directories: preserve locally, do not push
+outputs/**/checkpoint*/
+
+# Other training-state files
+outputs/**/optimizer.pt
+outputs/**/scheduler.pt
+
+# Large full-model weights outside checkpoint directories
+outputs/**/model.safetensors
+outputs/**/pytorch_model.bin

@@ -1,0 +1,20 @@
+{
+  "output_dir": "/kaggle/working/PA2/outputs/persona_lora",
+  "train_examples": 198,
+  "validation_examples": 22,
+  "best_metric": 0.4635419547557831,
+  "train_loss": 0.5320289134979248,
+  "seed": 42,
+  "beta": 0.1,
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  }
+}

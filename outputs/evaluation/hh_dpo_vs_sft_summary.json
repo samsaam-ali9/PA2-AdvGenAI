@@ -1,0 +1,15 @@
+{
+  "comparison": "hh_dpo_vs_sft",
+  "challenger": "HH-RLHF DPO",
+  "judge_model": "google/gemini-3-flash-preview",
+  "total_pairs": 300,
+  "challenger_wins": 80,
+  "opponent_wins": 123,
+  "ties": 97,
+  "unknown": 0,
+  "failures": 0,
+  "win_rate_excluding_ties": 0.39408866995073893,
+  "win_rate_including_ties": 0.42833333333333334,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0
+}

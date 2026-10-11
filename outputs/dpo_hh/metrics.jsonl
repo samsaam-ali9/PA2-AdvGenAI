@@ -1,0 +1,1 @@
+{"epoch": 1, "global_step": 469, "train_loss": 0.6414046118248875, "validation_dpo_loss": 0.6925832018740475, "validation_reward_accuracy": 0.5649999976158142, "validation_reward_margin": 0.13842150568962097, "validation_reward_tie_rate": 0.006000000052154064, "beta": 0.1, "seed": 42}
