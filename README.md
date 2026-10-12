@@ -119,16 +119,8 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
-The public adapter smoke tests passed locally: **7 passed**. Passing these tests checks the exposed adapter interface and basic invariants; it is not a guarantee of passing any private grader.
+The public adapter smoke tests passed locally: **7 passed**. Passing these tests checks the exposed adapter interface and basic invariants.
 
-## Final submission checklist
-
-- [ ] GitHub repository URL submitted.
-- [ ] Final report PDF (maximum 8 pages) included and submitted separately if required.
-- [ ] Training plots and evaluation summary retained in `outputs/`.
-- [ ] Root-level `submission_adapter.py` retained.
-- [ ] Public tests pass in the final repository copy.
-- [ ] Large model checkpoints are backed up separately and are not committed to Git.
 
 ## Acknowledgments and references
 
